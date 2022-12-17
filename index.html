@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Psalms 139:2-5-->
+<!--Mitchell Martin-->
+<html lang=""en-US"><head>
+
+<meta charset="UTF-8"/>
+<title>Mitchell Martin</title>
+
+<link href="style.css" rel="stylesheet" />
+</head><body>
+
+<div class="header">
+   <p class="header_name"><h1>Mitchell Martin</h1></p>
+
+   <div class="icon_list">
+      <a href="https://github.com/mmartin46"><img src="Images\github_icon.png" alt="Github" width="20" height="20"></a>
+      <a href="https://profile.indeed.com/"><img src="Images\indeed_icon.png" alt="Indeed" width="20" height="20"></a>
+      <a href="https://www.linkedin.com/in/mitchell-martin-0508021b9/"><img src="Images\linkedln_icon.png" alt="Linkedln" width="20" height="20"></a>
+   </div>
+</div>
+
+<!-- This div defines my information using
+an unordered list.. -->
+<div class="contact">
+   <h2>Contact Info</h2>
+   <div class="cnt">
+   <ul>
+      <li><p>Email: mmartin46@angelo.edu</p></li>
+      <li><p>Phone Number: 214-449-1108</p></li>
+   </ul>
+   </div>
+</div>
+
+<!-- This div defines my education experience (college/university level wise). -->
+<div class="education">
+   <h2>Education</h2>
+      <h4><a href="https://www.angelo.edu/">Angelo State University, San Angelo, TX</a></h4>
+         <div class="edu">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B.S. in Computer Science</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Expected Graduation Date: December 10, 2023</p>
+         </div>
+      <h4><a href="http://www.collin.edu/">Collin College, McKinney, TX</a></h4>
+         <div class="edu">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;General Studies, January 2020 - December 2021</p>
+         </div>
+</div>
+
+<!-- This div defines the projects I wanted to display
+for the website. The Shannon HealthCare Application and the
+Salon Database Project were both group projects that were worked on,
+and clicking the links will give more information regarding the projects. -->
+<div class="github">
+   <h2>Contributions</h2>
+      <div class="contr"></div>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Github Link: </b><a href="https://github.com/mmartin46?tab=repositories">My Github</a></p>
+
+         <div class="shann">
+            <p><h2>&nbsp;&nbsp;&nbsp;&nbsp;Shannon HealthCare Application</h2></p>
+            <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course Taken:</b> Software Engineering - Angelo State University</p>
+            <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Language:</b> Python, Kivy</p>
+            <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Type:</b> Group</p>
+            <div class="imgs">
+               <img src="Images\cartscreen.PNG" alt="Figure 1.0" style="width:300px;">
+               <img src="Images\menu_screen.PNG" alt="Figure 1.1" style="width:300px;">
+               <img src="Images\neee.PNG" alt="Figure 1.2" style="width:300px;">
+               <p><img src="Images\subsys.png" alt="Figure 1.2" style="width:1000px;"></p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/rileyArndt/ShannonHealthApp/releases/tag/v1.0.0">Download the Application</a></p>
+            </div>
+         </div>
+
+         <div class="salon">
+            <p><h2>&nbsp;&nbsp;&nbsp;&nbsp;Salon Database Project</h2></p>
+            <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course Taken:</b> Database Management - Angelo State University</b></p>
+            <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Language:</b> MySQL</p>
+            <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Type:</b> Group</p>
+            <img src="Images\dbdesign (1).drawio (1) (1) (1).png" alt="Figure 2.0" style="width:800px;">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/mmartin46/SalonDatabase/blob/main/salon_copy.sql">Download the SQL file</a></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.google.com/presentation/d/1MFZDV3ggMfM6Cmo6dYPll4YoK1k-Z-5m2ZqR77ShzC4/edit?usp=sharing">Slides for the database</a></p>
+         </div>
+
+      </div>
+</div>
+
+<div class="honors">
+   <h2>Honors</h2>
+      <div class="contr"></div>
+         <p>Science and Engineering Dean's List, Angelo State University, Spring 2022</p>
+      </div>
+</div>
+
+<!-- This div defines my employment within companies I have worked for.
+I used an unordered list to define the tasks that I have used within my 
+work experience. -->
+<div class="employee">
+   <h2>Employement</h2>
+   <div class="mbr">
+      <h3>YMCA of McKinney</h3>
+      <h4>Member Services Representative, December 2020 - August 2022</h4>
+      <ul>
+         <li> 1. Performed data entries of membership information on database applications.</li>
+         <li> 2. Assisted members with the use of the company’s mobile application.</li>
+         <li> 3. Maintained up-to-date knowledge on credit union products and essential services</li>
+         <li> 4. Delivered efficient processing of member transactions.</li>
+         <li> 5. Provided metadata changes to reports.</li>
+         <li> 6. Followed communication procedures, guidelines, and principles.</li>
+      </ul>
+   </div>
+
+</div>
+
+
+
+<!-- This div defines the questions and answers section.
+A user can ask questions within the "textarea", click the
+"submit" button for an automated response, or clear
+the "ans textarea" by clicking "clear". -->
+<div class="q&a">
+   <h2>Questions?</h2>
+   <div class="question">
+      <p>Question: </p> 
+      <p><textarea id="ask"></textarea></p>
+      <button id="submit">Submit</button>
+
+      <p>Answer: </p>
+      <p><textarea id="ans"></textarea></p>
+      <button id="clear">Clear</button>
+   </div>
+</div>
+
+
+<script src="script.js"></script>
+</body></html>
