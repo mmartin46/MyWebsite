@@ -118,7 +118,11 @@ document.addEventListener('DOMContentLoaded', function () {
       let request;
       request = document.getElementById("ask").value;
 
-      document.getElementById("ans").value = complete_response(request);
+      if (complete_response(request) == undefined) {
+         document.getElementById("ans").value = "I don't understand.";         
+      } else {
+         document.getElementById("ans").value = complete_response(request);
+      }
    });
 
    // Clears the contents of the answer screen.
