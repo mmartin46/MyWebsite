@@ -72,8 +72,10 @@ document.addEventListener('DOMContentLoaded', function () {
    ];
    // If the response is not answerable
    const resp_notfound = [
+      [
       "I don't understand?",
       "Can you reword that?"
+      ]
    ];
 
    // Chooses an answer within the optional answers.
@@ -118,11 +120,8 @@ document.addEventListener('DOMContentLoaded', function () {
       let request;
       request = document.getElementById("ask").value;
 
-      if (complete_response(request) == undefined) {
-         document.getElementById("ans").value = "I don't understand.";         
-      } else {
-         document.getElementById("ans").value = complete_response(request);
-      }
+
+      document.getElementById("ans").value = complete_response(request);
    });
 
    // Clears the contents of the answer screen.
